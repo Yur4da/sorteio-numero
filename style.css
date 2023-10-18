@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 24, 25);
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin: 50px auto;
+    font-weight: normal;
+}
+
+h3:after{
+    content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    height: 20px;
+    width: 2px;
+    animation: cursor 1s infinite;
+   }
+
+  @keyframes cursor {
+    0% { opacity: 1; }
+    49% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+.img-logo {
+    width: 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px #0995ff;
+}
+
+p {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    border: 2px solid #0995ff;
+    text-align: center;
+    color: #0995ff;
+    outline: 0;
+    margin: 10px;
+}
+
+
+.sortear {
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px #ffffff;
+    background-color: #0995ff;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sortear:hover {
+    opacity: 0.8;
+}
